@@ -1,9 +1,9 @@
 ## 简单工厂模式：
 
 暴露给外部的类有：
-Animal 接口
-AnimalFactory 类
-以及如何使用，比如"dog"可以创建出一个实例，调用这个实例可以执行makeSound方法。
+* Animal 接口
+* AnimalFactory 类
+* 以及如何使用，比如"dog"可以创建出一个实例，调用这个实例可以执行makeSound方法。通过不同的字符串可以得到不同的makeSound方法，返回不同的结果。
 
 隐藏实现，client不需要知道具体的实现信息。
 
